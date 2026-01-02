@@ -1,9 +1,5 @@
 # Magnitude-Based Pruning for Transformer Models
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-orange.svg)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 A comprehensive investigation into magnitude-based pruning techniques for DistilBERT transformer models, demonstrating efficient compression strategies for deployment on resource-constrained devices.
 
 ## 📋 Table of Contents
@@ -13,10 +9,6 @@ A comprehensive investigation into magnitude-based pruning techniques for Distil
 - [Quick Start](#quick-start)
 - [Experiments](#experiments)
 - [Results](#results)
-- [Repository Structure](#repository-structure)
-- [Citation](#citation)
-- [Contributors](#contributors)
-- [License](#license)
 
 ## 🎯 Overview
 
@@ -304,31 +296,4 @@ The results reveal that **task complexity significantly influences** pruning eff
 - [Neural Network Interpretability via LRP](https://github.com/Nithya162/Layer-wise-Relevance-Propagation-LRP-)
 - [Amazon Fine Food Reviews Sentiment Analysis](https://github.com/Nithya162/Amazon-Fine-Food)
 
-### Key References
-
-1. Han et al. (2015) - "Learning both weights and connections for efficient neural network"
-2. Gordon et al. (2020) - "Compressing BERT: Studying the effects of weight pruning on transfer learning"
-3. Frankle & Carbin (2019) - "The lottery ticket hypothesis"
-4. Sanh et al. (2019) - "DistilBERT, a distilled version of BERT"
-
-
 ---
-
-⭐ **Star this repository** if you find it useful for your research or projects!
-
-🐛 **Report issues** or suggest improvements via GitHub Issues
-
-🤝 **Contributions welcome** - Feel free to submit pull requests!
-```
-
----
-
-## Important: File Organization for Figures
-
-Make sure to organize your repository with the following structure for all figures:
-```
-results/
-└── figures/
-    ├── sst2_global_pruning.png      (Figure 1 from report)
-    ├── qqp_global_pruning.png       (Figure 2 from report)
-    └── mnli_global_pruning.png      (Figure 3 from report)
